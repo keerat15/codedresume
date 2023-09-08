@@ -1,0 +1,122 @@
+%harkeerat_resume
+
+\documentclass[11pt,a4paper,ragged2e]{altacv}
+
+
+\geometry{left=1cm,right=10cm,marginparwidth=8.4cm,marginparsep=.5cm,top=1cm,bottom=1cm}
+
+
+\ifxetexorluatex
+  
+  \setmainfont{Times New Roman}
+\else
+  
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{VividPurple}
+
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+\addbibresource{sample.bib}
+
+\begin{document}
+
+ \name{Harkeerat Kaur Dhani}   
+
+
+\tagline{}
+
+\personalinfo{
+  
+  \email{dhani.harkeerat@gmail.com}
+  \phone{7029162342}
+  \location{West Bengal, India}
+
+
+  \linkedin{https://www.linkedin.com/in/harkeerat-kaur-dhani-106b5b221/}
+
+}
+
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+
+\AtBeginEnvironment{itemize}{\small}
+
+
+\cvsection[page1sidebar]{Education}
+\cvevent{Vellore Institute of Technology, AP
+}{Bachelor of Technology}{ August 2021 - Present [Expected: May 2025]}{}
+Current CGPA: 9.06
+
+\smallskip
+\divider
+
+   
+\cvevent{DAV Model School, IIT KGP
+}{AISSE, AISSCE}{2005-2021}{}
+Class XII: 95.8 \faPercent
+
+
+Class X: 93.2 \faPercent
+\smallskip
+\smallskip
+
+
+\cvsection{Position of Responsibility}
+
+	
+         \textbf{Head of Internal Affairs - ACM Student Chapter} 
+         
+         \begin{itemize}
+    \item{Managed and oversaw various technical events while coordinating meetings and events. }. 
+\end{itemize}
+\smallskip
+
+ \textbf{Member - Peer Mentoring Programme} 
+         
+         \begin{itemize}
+    \item{Helped freshers and mates with tutoring and academic related queries. }. 
+\end{itemize}
+\smallskip
+
+ \textbf{Cultural Captain - DAV Model School} 
+         
+         \begin{itemize}
+    \item{Organised and Managed all the cultural events in school. }. 
+\end{itemize}
+
+
+
+\smallskip
+\smallskip
+\cvsection{Achievements}
+\cvproject{Runners Up} {HACKAP HACKATHON }
+\begin{itemize}
+    
+    \item Conducted my Andhra University with the theme of \textbf{VISION RESOURCE CONVERSATION}.
+    \item Designed a prototype which could smart footfall analysis in a particular region.
+\end{itemize}
+\smallskip
+
+\clearpage
+
+\nocite{*}
+
+\end{document}
+
